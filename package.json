@@ -13,7 +13,7 @@
   },
   "homepage": "https://antoniomatheus/github.io/markdown-previewer",
   "scripts": {
-    "predeploy": "build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
