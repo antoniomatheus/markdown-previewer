@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -10,7 +11,10 @@
     "showdown": "^1.9.0",
     "styled-components": "^4.4.0"
   },
+  "homepage": "https://antoniomatheus/github.io/markdown-previewer",
   "scripts": {
+    "predeploy": "build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
