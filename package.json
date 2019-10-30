@@ -11,7 +11,7 @@
     "showdown": "^1.9.0",
     "styled-components": "^4.4.0"
   },
-  "homepage": "https://antoniomatheus/github.io/markdown-previewer",
+  "homepage": "https://antoniomatheus.github.io/markdown-previewer",
   "scripts": {
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
