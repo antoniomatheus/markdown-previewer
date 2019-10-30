@@ -11,7 +11,7 @@ export const Container = styled.div`
     text-align: center;
     font-weight: bold;
     font-size: 24px;
-    background-color: #573fa8;
+    background-color: rgba(113, 89, 193, 1);
     color: #fff;
     border-bottom: 1px solid #000;
   }

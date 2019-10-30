@@ -7,9 +7,15 @@ import Preview from './components/Preview';
 import { Container } from './styles';
 import GlobalStyles from './styles/globalStyles';
 
+const initialState = `
+# Welcome!
+
+## This is a markdown previewer developed using React JS
+`;
+
 function App() {
-  const converter = new Converter();
-  const [markdown, setMarkdown] = useState('');
+  const converter = new Converter({ simpleLineBreaks: true });
+  const [markdown, setMarkdown] = useState(initialState);
   const [preview, setPreview] = useState(<div />);
 
   useEffect(() => {
@@ -20,7 +26,7 @@ function App() {
   return (
     <Container>
       <GlobalStyles />
-      <Markdown setMarkdown={setMarkdown} />
+      <Markdown markdown={markdown} setMarkdown={setMarkdown} />
       <Preview preview={preview} />
     </Container>
   );

@@ -7,5 +7,5 @@ export const Container = styled.div`
   max-width: 1980px;
   justify-content: stretch;
   align-items: stretch;
-  background: #7159c1;
+  background: rgba(113, 89, 193, 0.7);
 `;

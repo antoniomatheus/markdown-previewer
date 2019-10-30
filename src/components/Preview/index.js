@@ -7,7 +7,7 @@ export default function Preview({ preview }) {
   return (
     <Container>
       <header>Preview</header>
-      <div dangerouslySetInnerHTML={{ __html: preview }} />
+      <div id="preview" dangerouslySetInnerHTML={{ __html: preview }} />
     </Container>
   );
 }
